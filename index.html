@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oracle Opera</title>
+    <link rel="stylesheet" type="text.css" href="./scss/normalize.css" />
+    <link rel="stylesheet" href="./scss/main.css" />
+    <link rel="stylesheet" href="./scss/fonts.css" />
+    <link rel="stylesheet" href="./scss/fontawesome-all.css" />
+    <link rel="stylesheet" href="./scss/google.css" />
+  </head>
+  <body>
+    <div class="Header">
+      <div class="Logo">
+        <img class="Logo-img" src="img/precog-logo.png" />
+      </div>
+      <div class="ButtonGroup">
+        <a class="Button button" href="#"
+          ><i class="Icon fas fa-table"></i>Load History</a
+        >
+        <button class="Button">
+          <i class="Icon fas fa-user-circle"></i>My subscription</button
+        ><button class="Button">
+          <i class="Icon fas fa-sign-out-alt"></i>Log out
+        </button>
+      </div>
+    </div>
+    <div class="Page">
+      <div class="PipelineCreatePage">
+        <div class="Container"><h1>Connect to Oracle OPERA</h1></div>
+        <div class="Container">
+          <div class="SourceAdd">
+            <div class="Group">
+              <button class="Button" type="button">
+                <i class="Icon fas fa-arrow-left"></i>Back
+              </button>
+            </div>
+            <div class="ConnectorForm">
+              <div class="KindForm">
+                <label class="Field"
+                  ><div class="Field-label">Hotel ID</div>
+                  <div class="Field-description">
+                    <p>This value is supplied by the hotel.</p>
+                  </div>
+                  <input class="Input" type="text" placeholder="" /></label
+                ><label class="Field"
+                  ><div class="Field-label">Gateway URL</div>
+                  <div class="Field-description">
+                    <p>This value is accessed from the Developer Portal.</p>
+                  </div>
+                  <input class="Input" type="text" placeholder="" /></label
+                ><label class="Field"
+                  ><div class="Field-label">App Key</div>
+                  <div class="Field-description">
+                    <p>This value is accessed from the Developer Portal.</p>
+                  </div>
+                  <input class="Input" type="text" placeholder="" /></label
+                ><label class="Field"
+                  ><div class="Field-label">Client ID</div>
+                  <div class="Field-description">
+                    <p>This value is accessed from the Developer Portal.</p>
+                  </div>
+                  <input class="Input" type="text" placeholder="" /></label
+                ><label class="Field"
+                  ><div class="Field-label">Client Secret</div>
+                  <div class="Field-description">
+                    <p>This value is accessed from the Developer Portal.</p>
+                  </div>
+                  <input class="Input" type="password" placeholder="" /></label
+                ><label class="Field"
+                  ><div class="Field-label">Interface ID</div>
+                  <div class="Field-description">
+                    <p>
+                      This value is accessed from the vendor self-registration
+                      portal.
+                    </p>
+                  </div>
+                  <input class="Input" type="text" placeholder="" /></label
+                ><label class="Field"
+                  ><div class="Field-label">Interface Key</div>
+                  <div class="Field-description">
+                    <p>
+                      This value is accessed from the vendor self-registration
+                      portal.
+                    </p>
+                  </div>
+                  <input class="Input" type="password" placeholder="" /></label
+                ><label class="Field"
+                  ><div class="Field-label">Historical Start Date</div>
+                  <div class="Field-description">
+                    <p>
+                      The date from which to start loading historical data in
+                      <code>YYYY-MM-DD</code> format.
+                    </p>
+                  </div>
+                  <input class="Input" type="text" placeholder=""
+                /></label>
+              </div>
+              <div class="Group">
+                <div class="ButtonGroup">
+                  <button class="Button" type="button">
+                    <i class="Icon fas fa-plus"></i>Create source
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
