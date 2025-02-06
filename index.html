@@ -39,13 +39,52 @@
             <div class="ConnectorForm">
               <div class="Instructions">
                 <p>
-                  This connector is for Oracle Opera users also using Oracle Hospitality Shared Security Domain (SSD). You can identify if you are a SSD user by checking your login url. A SSD url will only have the Hostname e.g. <code>https://<hostname>/OPERA9/opera/operacloud</code>. If you are unsure check this <a href="https://docs.oracle.com/en/industries/hospitality/identity-management/24.2/ocimy/c_determining_if_opera_cloud_is_using_ssd_or_opera_cloud_identity_management.htm">Oracle Help Center documentation</a>.
+                  This connector is for Oracle Opera users also using Oracle
+                  Hospitality Shared Security Domain (SSD). You can identify if
+                  you are a SSD user by checking your login url. A SSD url will
+                  only have the Hostname e.g.
+                  <code
+                    >https://<strong>hostname</strong>/OPERA9/opera/operacloud</code
+                  >. If you are unsure check this
+                  <a
+                    href="https://docs.oracle.com/en/industries/hospitality/identity-management/24.2/ocimy/c_determining_if_opera_cloud_is_using_ssd_or_opera_cloud_identity_management.htm"
+                    >Oracle Help Center documentation</a
+                  >.
                 </p>
                 <p>
-                  You will need to have access to the Developer Portal and have an active Environment. Once you have logged into the Developer Portal click on the Environments tab. Select the Environment you want, click on View Details. The <strong>Client Id</strong>, <strong>Client Secret</strong>, and <strong>Gateway URL</strong> should be visible. These credentials will be used in the form below. Then select the Applications tab to view the <strong>Application Key</strong>. This key will also be used in the form below. If you need guidance on acquiring these credentials through the Developer Portal check the Oracle documentation about <a href="https://docs.oracle.com/en/industries/hospitality/integration-platform/ohipu/t_environments_gateways_and_credentials_ssd.htm">Environments (Gateways and Credentials) with Resource Owner Group Authentication Scheme (SSD)</a>.
+                  You will need to have access to the Developer Portal and have
+                  an active Environment. Once you have logged into the Developer
+                  Portal click on the Environments tab. Select the Environment
+                  you want, click on View Details. The
+                  <strong>Client Id</strong>, <strong>Client Secret</strong>,
+                  and <strong>Gateway URL</strong> should be visible. These
+                  credentials will be used in the form below. Then select the
+                  Applications tab to view the <strong>Application Key</strong>.
+                  This key will also be used in the form below. If you need
+                  guidance on acquiring these credentials through the Developer
+                  Portal check the Oracle documentation about
+                  <a
+                    href="https://docs.oracle.com/en/industries/hospitality/integration-platform/ohipu/t_environments_gateways_and_credentials_ssd.htm"
+                    >Environments (Gateways and Credentials) with Resource Owner
+                    Group Authentication Scheme (SSD)</a
+                  >.
                 </p>
                 <p>
-                  The <strong>Interface ID</strong> and <strong>Interface Key</strong> will need to be created in the Oracle Hospitality Shared Security Domain (SSD) Portal. You must already have an active Developer Environment as you will need the Client ID, Client Secret, and the Application Key to proceed. Log into your SSD portal. Create a new integration user with an active <code>Hotel ID-WSACCESS</code> role. The <strong>Interface ID</strong> is the integration user’s Username, and the <strong>Interface Key</strong> is the integration user’s Password. For guidance on acquiring these credentials check the Oracle documentation about <a href="https://docs.oracle.com/en/industries/hospitality/integration-platform/ohipu/c_authenticating_to_oracle_hospitality_property_apis_ssd.htm">Authenticating to Oracle Hospitality Property APIs</a>.
+                  The <strong>Interface ID</strong> and
+                  <strong>Interface Key</strong> will need to be created in the
+                  Oracle Hospitality Shared Security Domain (SSD) Portal. You
+                  must already have an active Developer Environment as you will
+                  need the Client ID, Client Secret, and the Application Key to
+                  proceed. Log into your SSD portal. Create a new integration
+                  user with an active <code>Hotel ID-WSACCESS</code> role. The
+                  <strong>Interface ID</strong> is the integration user’s
+                  Username, and the <strong>Interface Key</strong> is the
+                  integration user’s Password. For guidance on acquiring these
+                  credentials check the Oracle documentation about
+                  <a
+                    href="https://docs.oracle.com/en/industries/hospitality/integration-platform/ohipu/c_authenticating_to_oracle_hospitality_property_apis_ssd.htm"
+                    >Authenticating to Oracle Hospitality Property APIs</a
+                  >.
                 </p>
               </div>
               <h2>Precog configuration</h2>
@@ -83,17 +122,13 @@
                 ><label class="Field"
                   ><div class="Field-label">Interface ID</div>
                   <div class="Field-description">
-                    <p>
-                      This value is accessed from the SSD Portal.
-                    </p>
+                    <p>This value is accessed from the SSD Portal.</p>
                   </div>
                   <input class="Input" type="text" placeholder="" /></label
                 ><label class="Field"
                   ><div class="Field-label">Interface Key</div>
                   <div class="Field-description">
-                    <p>
-                      This value is accessed from the SSD Portal.
-                    </p>
+                    <p>This value is accessed from the SSD Portal.</p>
                   </div>
                   <input class="Input" type="password" placeholder="" /></label
                 ><label class="Field"
